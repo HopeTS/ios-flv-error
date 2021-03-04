@@ -1,0 +1,31 @@
+#Home {
+    @include page;
+}
+
+.Home__header {
+
+}
+
+.Home__headerContent {
+
+}
+
+.Home__content {
+    margin-top: 5em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.Home__contentImage {
+
+}
+
+.Home__contentText {
+    p {
+
+    }
+
+    small {
+        opacity: 0.6;
+    }
+}

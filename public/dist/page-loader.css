@@ -1,0 +1,110 @@
+body[data-loading=true] {
+    background: #181818;
+}
+
+.page_loader {
+    position: absolute;
+    width: 90px;
+    left: calc(50% - 45px);
+    bottom: calc(50% - 20px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page_loader[data-loading=false] {
+    opacity: 0;
+    transition: 300ms;
+}
+
+.page_loader[data-loaded=true] {
+    display: none;
+}
+
+.page_loader > div {
+    background: #e1e1ff;
+    width: 10px;
+    height: 40px;
+    position: relative;
+}
+
+.page_loader1 {
+    animation: load1;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+}
+
+.page_loader2 {
+    animation: load2;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+}
+
+.page_loader3 {
+    animation: load3;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+}
+
+.page_loader4 {
+    animation: load4;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+}
+
+.page_loader5 {
+    animation: load5;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;    
+}
+
+
+@keyframes load1 {
+    0% {top: 0px;}
+    20% {top: -24px;}
+    35% {top: 0px;}
+    50% {top: 0px;}
+    75% {top: 0px;}
+    90% {top: 0px;}
+    100% {top: 0px;}
+}
+
+@keyframes load2 {
+    0% {top: 0px;}
+    20% {top: 0px;}
+    35% {top: -24px;}
+    50% {top: 0px;}
+    75% {top: 0px;}
+    90% {top: 0px;}
+    100% {top: 0px;}
+}
+
+@keyframes load3 {
+    0% {top: 0px;}
+    20% {top: 0px;}
+    35% {top: 0px;}
+    50% {top: -24px;}
+    75% {top: 0px;}
+    90% {top: 0px;}
+    100% {top: 0px;}
+}
+
+@keyframes load4 {
+    0% {top: 0px;}
+    20% {top: 0px;}
+    35% {top: 0px;}
+    50% {top: 0px;}
+    75% {top: -24px;}
+    90% {top: 0px;}
+    100% {top: 0px;}
+}
+
+@keyframes load5 {
+    0% {top: 0px;}
+    20% {top: 0px;}
+    35% {top: 0px;}
+    50% {top: 0px;}
+    75% {top: 0px;}
+    90% {top: -24px;}
+    100% {top: 0px;}
+}

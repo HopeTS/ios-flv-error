@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Source maps
+*.map
+
+# React/SASS bundle output
+public/dist/bundle.css
+public/dist/bundle.js
+
+# SSL certificates
+server/ssl/*.crt
+server/ssl/*.key
+server/ssl/*.srl
+server/ssl/*.csr
+
+# Thumbnails
+server/thumbnails/*.png
+
+# MongoDB database
+server/database/db/*.wt
+server/database/db/mongod.lock
+server/database/db/storage.bson
+server/database/db/WiredTiger
+server/database/db/WiredTiger.lock
+server/database/db/WiredTiger.turtle
+server/database/db/diagnostic.data
+server/database/db/journal
+
+# Stream data
+server/rtmp/media/live/*
+
+# JS files built from TypeScript
+server/media_server.js
+server/server.js
+
+# utils JS files built from TypeScript
+server/utils/generate_key.js
+
+# database JS files built from TypeScript
+server/database/DevDatabase.js
+server/database/ProdDatabase.js
+
+# RTMP Server JS files built from TypeScript
+server/rtmp/RTMPServer.js
+server/rtmp/nms/nms.js
+
+# HTTP Server JS files built from TypeScript
+server/http/HTTPServer.js
+server/http/middleware/http2https.js
+server/http/auth/passport.js
+server/http/routers/Router.js
+server/http/routers/business.js
+server/http/routers/dashboard.js
+server/http/routers/home.js
+server/http/routers/legal.js
+server/http/routers/login.js
+server/http/routers/logout.js
+server/http/routers/register.js
+server/http/routers/stream.js
+server/http/routers/user.js
+server/http/routers/watch.js
+server/http/routers/wildcard.js
