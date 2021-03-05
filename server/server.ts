@@ -2,7 +2,6 @@ export {};
 const path = require('path');
 const chalk = require('chalk');
 
-const ProdDatabase = require('./database/ProdDatabase');
 const RTMPServer = require('./rtmp/RTMPServer');
 const HTTPServer = require('./http/HTTPServer');
 

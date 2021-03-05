@@ -27,12 +27,6 @@ function construct_config() {
     };
 
     config.api_url = 'http://localhost:8000/api/streams';
-    
-    config.auth = {
-        api : true,
-        api_user: 'admin',
-        api_pass: '3r32rtes9798h!@$!@#fd'
-    };
 
     config.http = {
         port: 8000,
